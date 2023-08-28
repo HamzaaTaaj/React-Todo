@@ -1,0 +1,91 @@
+body {
+  background-color: #1a1a1a;
+}
+.head-bg {
+  background-color: black;
+  height: 200px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.SearchBox {
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+  gap: 10px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  right: 50%;
+}
+.SearchBox input {
+  height: 30px;
+  width: 600px;
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.custom-button {
+  background-color: #1e6f9f;
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: #1e6f9f;
+  color: white;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.createTask {
+  width: 735px;
+  margin: auto;
+}
+.Task-List {
+  color: white;
+  text-align: center;
+}
+.counter {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 2px 10px;
+  margin: 10px;
+}
+.tasks-tab {
+  display: flex;
+  justify-content: space-between;
+  margin: 65px auto;
+  border-bottom: 1px solid gray;
+}
+.created-head {
+  color: skyblue;
+  font-weight: bold;
+}
+.created-head2 {
+  color: #8284fa;
+}
+
+.descrip {
+  width: 350px;
+  margin: 20px auto;
+  font-weight: bold;
+  color: gray;
+}
+.plus-icon {
+  font-size: 20px;
+}
+.tasklist-Data {
+  color: white;
+  width: 735px;
+  margin: auto;
+  display: flex;
+  background-color: #262626;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+}
+.tasklist-Data img {
+  width: 20px;
+}
