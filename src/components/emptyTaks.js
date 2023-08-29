@@ -1,8 +1,10 @@
 import React from "react";
+import CreateTaskEmptyCounter from "./createTaskEmptyCounter";
 
 const emptyTaks = () => {
   return (
     <div>
+      <CreateTaskEmptyCounter />
       <div className="Task-List">
         <img src="Clipboard.png" />
         <div>

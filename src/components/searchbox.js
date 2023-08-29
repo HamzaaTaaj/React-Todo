@@ -9,7 +9,7 @@ const searchbox = () => {
         </div>
         <div>
           <button className="custom-button">
-            Clear <span className="plus-icon"> &#8853;</span>
+            Create <span className="plus-icon"> &#8853;</span>
           </button>
         </div>
       </div>

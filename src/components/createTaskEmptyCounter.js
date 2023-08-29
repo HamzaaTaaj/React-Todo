@@ -1,6 +1,5 @@
 import React from "react";
-import Empty from "./emptyTaks";
-const createTask = () => {
+const CreateTaskEmptyCounter = () => {
   return (
     <div className="createTask">
       <div className="tasks-tab">
@@ -15,4 +14,4 @@ const createTask = () => {
   );
 };
 
-export default createTask;
+export default CreateTaskEmptyCounter;
