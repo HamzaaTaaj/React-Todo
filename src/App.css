@@ -28,6 +28,7 @@ body {
   border: 1px solid black;
   border-radius: 10px;
   font-size: 18px;
+  color: white;
 }
 .custom-button {
   background-color: #1e6f9f;
@@ -107,4 +108,31 @@ body {
 }
 .tasks {
   font-size: 14px;
+}
+.trash {
+  margin-left: auto;
+}
+@media only screen and (min-width: 1440px) {
+  .SearchBox {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    right: 50%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .SearchBox {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    right: 50%;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .SearchBox {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    right: 50%;
+  }
 }

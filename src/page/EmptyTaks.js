@@ -1,5 +1,5 @@
 import React from "react";
-import CreateTaskEmptyCounter from "./createTaskEmptyCounter";
+import CreateTaskEmptyCounter from "../components/createTaskEmptyCounter";
 
 const emptyTaks = () => {
   return (
